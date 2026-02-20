@@ -10,4 +10,5 @@ int main(){
         sum+=k*i;
     }
     cout<<sum-n;
+
 }
