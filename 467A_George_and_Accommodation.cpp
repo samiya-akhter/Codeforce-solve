@@ -13,8 +13,9 @@ int main()
     while (n--)
     {   int a,b;
         cin>>a>>b;
+        a+=2;
 
-        if(a<b){
+        if(a<=b){
             count ++;
         }
         /* code */
