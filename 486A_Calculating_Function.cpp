@@ -6,17 +6,16 @@ int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int n;
+    long long n;
     cin>>n;
-    int result=0;
-    for (int i = 1; i <=n; i++)
-    {   if (i%2==0){
-        result+=i;
+    long long result=0;
+    if (n%2==0){
+        result=n/2;
     }
     else
-        result-=i;
+        result=-(n+1)/2;
         /* code */
-    }
+    
     cout<<result;
     
     
